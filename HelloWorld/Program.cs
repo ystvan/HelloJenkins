@@ -13,7 +13,8 @@ namespace HelloWorld
             Console.WriteLine(CreateMessage());
         }
 
-        public static string CreateMessage() {
+        public static string CreateMessage()
+        {
             return "Hello World";
         }
     }
